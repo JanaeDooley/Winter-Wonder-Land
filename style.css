@@ -1,0 +1,134 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+    
+}
+
+body {
+    background-color:#112031 ;
+}
+
+li, a, button, .logo {
+    font-family:'Proza Libre', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+
+p {
+    font-family: 'Proza Libre', sans-serif;
+    font-size: 18px;
+}
+
+#Landing-Page{
+position: relative;
+text-align: center;
+}
+
+.calling-img{
+    width: 100%;
+    height: auto;
+    
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+.call-to-action {
+    font-family: 'Italiana', serif;
+    font-size: 65px;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-200%);
+}
+
+
+
+.logo {
+    cursor: pointer;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 18px;
+}
+
+.nav-links {
+    list-style: none;
+}
+
+.nav-links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav-links li a{
+    transition: all 0.3s ease 0s;
+}
+
+.nav-links li a:hover{
+    color: #0088a9;
+}
+
+button {
+    padding: 9px 25px;
+    background-color: rgba(0, 136, 169,1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover {
+    background-color: rgba(0, 136, 169,8);
+}
+
+
+.bottom-call{
+display: block;
+
+}
+
+.top-call {
+font-weight: 400;
+font-size: 70px;
+letter-spacing: 22%;
+text-transform: uppercase;
+width: 150%;
+animation: text 3s 1;
+}
+
+.bottom-call {
+    animation: text 3s 1;
+}
+
+@keyframes text {
+0%{
+    color: transparent;
+    margin-bottom: -60px;
+}
+
+}
+
+.btn-1 {
+    position: absolute;
+    top:480px;
+    left:640px
+}
+
+.container-2 {
+    background-color: #e5e5e5;
+    padding: 200px;
+    padding-bottom: 550px;
+
+}
+
+.container-3 {
+    background-color: #1E5F74;
+}
